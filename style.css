@@ -64,7 +64,7 @@
 
 .question__title {
   color: black;
-  max-width: 550px;
+  font-size: 32px;
 }
 
 .question__subtitle {
@@ -74,9 +74,42 @@
 }
 
 .question__image {
-  width: 330px;
+  width: 350px;
+  margin: 55px 120px 0 0;
   max-height: 350px;
-  margin-right: 120px;
+
+  /* margin-right: 120px; */
   object-fit: cover;
-  margin-top: 55px;
+  /* margin-top: 55px; */
+}
+
+.cards {
+  max-width: 100%;
+  margin: 0;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  height: 640px;
+}
+
+.card__image {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.card__text-container {
+  background-color: grey;
+  max-width: 100%;
+}
+.card__title {
+  color: black;
+  font-size: 14px;
+}
+
+.card__paragraph {
+  color: black;
+  font-size: 14px;
 }
