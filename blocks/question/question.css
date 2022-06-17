@@ -1,0 +1,25 @@
+/* question */
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 85px auto 135px;
+  max-width: 100%;
+  padding: 0 156px 0 66px;
+}
+
+@media screen and (max-width: 930px) {
+  .question {
+    padding: 0;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .question {
+    flex-direction: column;
+    padding: 0;
+    margin: 50px auto;
+    max-width: 80%;
+  }
+}

@@ -1,0 +1,16 @@
+/* header */
+
+.header__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 680px) {
+  .header__list {
+    flex-direction: column;
+    align-items: end;
+  }
+}

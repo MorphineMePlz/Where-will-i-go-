@@ -1,0 +1,21 @@
+.quote {
+  max-width: 227px;
+}
+
+@media screen and (max-width: 1100px) {
+  .quote {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .quote {
+    max-width: 227px;
+    margin-bottom: 24px;
+    max-width: 100%;
+  }
+
+  .quote:last-of-type {
+    margin-bottom: 0;
+  }
+}

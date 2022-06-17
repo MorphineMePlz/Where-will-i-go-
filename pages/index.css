@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/inter_web/inter.css);
+@import url(../blocks/page/page.css);
+
+/* Шапка сайта, блок header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__list-item/header__list-item.css);
+@import url(../blocks/header/__list/header__list.css);
+
+/* Контент*/
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__container/question__container.css);
+@import url(../blocks/question/__image/question__image.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image-container/card__image-container.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__paragraph/card__paragraph.css);
+@import url(../blocks/card/__text-container/card__text-container.css);
+@import url(../blocks/card/__title/card__title.css);
+
+@import url(../blocks/section/__subtitle/);
+@import url(../blocks/section/__title/section__title.css);
+
+@import url(../blocks/people/people.css);
+
+@import url(../blocks/quotes/quotes.css);
+
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__title/quote__title.css);
+@import url(../blocks/quote/__text/quote__text.css);
+
+/* Подвал - блок footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

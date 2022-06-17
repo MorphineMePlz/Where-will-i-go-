@@ -1,0 +1,12 @@
+/* people */
+.people {
+  padding: 133px 72px 142px;
+}
+
+@media screen and (max-width: 680px) {
+  .people {
+    padding: 0;
+    margin: 40px auto;
+    max-width: 80%;
+  }
+}

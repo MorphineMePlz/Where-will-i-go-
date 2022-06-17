@@ -1,0 +1,14 @@
+.header__list-item {
+  margin-right: 20px;
+}
+
+.header__list-item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 680px) {
+  .header__list-item {
+    display: inline-block;
+    margin: 0 0 10px 0;
+  }
+}
