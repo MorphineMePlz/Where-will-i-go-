@@ -24,7 +24,7 @@
 @import url(../blocks/card/__text-container/card__text-container.css);
 @import url(../blocks/card/__title/card__title.css);
 
-@import url(../blocks/section/__subtitle/);
+@import url(../blocks/section/__subtitle.css);
 @import url(../blocks/section/__title/section__title.css);
 
 @import url(../blocks/people/people.css);
