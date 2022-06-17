@@ -15,4 +15,4 @@
 
 ## 2. Ссылка на сайт.
 
-[Ссылка на сайт](https://where-will-i-o5fxgijt2-morphinemeplz.vercel.app/)
+[Ссылка на сайт](https://morphinemeplz.github.io/Where-will-i-go-/)
